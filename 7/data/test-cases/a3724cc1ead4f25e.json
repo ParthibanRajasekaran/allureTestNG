@@ -1,0 +1,566 @@
+{
+  "uid" : "a3724cc1ead4f25e",
+  "name" : "navigateToEncodedURL",
+  "fullName" : "com.template.project.web.tests.featureflow.BasicAuthTest.navigateToEncodedURL",
+  "historyId" : "e0689311ebfaef7538235a4c05c3e1a8",
+  "time" : {
+    "start" : 1625429066665,
+    "stop" : 1625429067792,
+    "duration" : 1127
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "INFO: Tests running on host: fv-az39-656",
+      "time" : {
+        "start" : 1625429052564,
+        "stop" : 1625429052592,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "INFO: Starting browser : chrome",
+      "time" : {
+        "start" : 1625429066075,
+        "stop" : 1625429066076,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get value from Environment config file",
+      "time" : {
+        "start" : 1625429066278,
+        "stop" : 1625429066280,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "INFO: Tests are run on defaultconfig",
+        "time" : {
+          "start" : 1625429066279,
+          "stop" : 1625429066279,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "INFO: https is read from environment file",
+        "time" : {
+          "start" : 1625429066280,
+          "stop" : 1625429066280,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Retrieve test data from Test data file",
+      "time" : {
+        "start" : 1625429066300,
+        "stop" : 1625429066301,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get test data from properties file",
+        "time" : {
+          "start" : 1625429066301,
+          "stop" : 1625429066301,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "INFO: Param - USERNAME is : admin",
+        "time" : {
+          "start" : 1625429066301,
+          "stop" : 1625429066301,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Retrieve test data from Test data file",
+      "time" : {
+        "start" : 1625429066302,
+        "stop" : 1625429066302,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get test data from properties file",
+        "time" : {
+          "start" : 1625429066302,
+          "stop" : 1625429066302,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "INFO: Param - PASSWORD is : EXploN7dChAOFQBWIepYDg==:DR1zn1wF9zDavZ1PUtTK4A==",
+        "time" : {
+          "start" : 1625429066302,
+          "stop" : 1625429066302,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Retrieve Cipher essentials from Test data file",
+      "time" : {
+        "start" : 1625429066319,
+        "stop" : 1625429066320,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get value from JSON config file",
+        "time" : {
+          "start" : 1625429066319,
+          "stop" : 1625429066320,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Retrieve Cipher essentials from Test data file",
+      "time" : {
+        "start" : 1625429066320,
+        "stop" : 1625429066320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get value from JSON config file",
+        "time" : {
+          "start" : 1625429066320,
+          "stop" : 1625429066320,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get value from Environment config file",
+      "time" : {
+        "start" : 1625429066639,
+        "stop" : 1625429066640,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "INFO: Tests are run on defaultconfig",
+        "time" : {
+          "start" : 1625429066639,
+          "stop" : 1625429066640,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "INFO: the-internet.herokuapp.com is read from environment file",
+        "time" : {
+          "start" : 1625429066640,
+          "stop" : 1625429066640,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "openPage[https://admin:admin@the-internet.herokuapp.com/basic_auth]",
+      "time" : {
+        "start" : 1625429066777,
+        "stop" : 1625429067167,
+        "duration" : 390
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "waitUntilElementVisible[//h3]",
+      "time" : {
+        "start" : 1625429067184,
+        "stop" : 1625429067361,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "getElementText[//h3]",
+      "time" : {
+        "start" : 1625429067362,
+        "stop" : 1625429067412,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tryFindElement[//h3]",
+        "time" : {
+          "start" : 1625429067362,
+          "stop" : 1625429067384,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Page header:Basic Auth is displayed",
+      "time" : {
+        "start" : 1625429067413,
+        "stop" : 1625429067413,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Assert if element is not present: //div[@class='example']/child::p",
+      "time" : {
+        "start" : 1625429067413,
+        "stop" : 1625429067572,
+        "duration" : 159
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "INFO: Element is present: //div[@class='example']/child::p",
+        "time" : {
+          "start" : 1625429067572,
+          "stop" : 1625429067572,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "getElementText[//div[@class='example']/child::p]",
+      "time" : {
+        "start" : 1625429067572,
+        "stop" : 1625429067612,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tryFindElement[//div[@class='example']/child::p]",
+        "time" : {
+          "start" : 1625429067573,
+          "stop" : 1625429067590,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Message: Congratulations! You must have the proper credentials. is displayed on the landing page",
+      "time" : {
+        "start" : 1625429067612,
+        "stop" : 1625429067613,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "waitUntilElementVisible[//div[@id='page-footer']]",
+      "time" : {
+        "start" : 1625429067614,
+        "stop" : 1625429067718,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "getElementText[//div[@id='page-footer']//child::a]",
+      "time" : {
+        "start" : 1625429067719,
+        "stop" : 1625429067787,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tryFindElement[//div[@id='page-footer']//child::a]",
+        "time" : {
+          "start" : 1625429067719,
+          "stop" : 1625429067754,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Page footer contains the link:Elemental Selenium",
+      "time" : {
+        "start" : 1625429067788,
+        "stop" : 1625429067788,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 32,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Herokuapp"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-656"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Herokuapp Basic Authorization"
+  }, {
+    "name" : "testClass",
+    "value" : "com.template.project.web.tests.featureflow.BasicAuthTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Chrome Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigateToEncodedURL"
+  }, {
+    "name" : "testSuite",
+    "value" : "Complete Suite"
+  }, {
+    "name" : "thread",
+    "value" : "3982@fv-az39-656.TestNG-test=Chrome Tests-1(12)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Complete Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Chrome Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.template.project.web.tests.featureflow.BasicAuthTest"
+  }, {
+    "name" : "package",
+    "value" : "com.template.project.web.tests.featureflow.BasicAuthTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3724cc1ead4f25e.json",
+  "parameterValues" : [ ]
+}

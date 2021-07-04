@@ -1,0 +1,51 @@
+[ {
+  "uid" : "d06959f90cd39a8d",
+  "name" : "uploadTest",
+  "time" : {
+    "start" : 1625429070313,
+    "stop" : 1625429070716,
+    "duration" : 403
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cb7278c4d52b3940",
+  "name" : "keyPressTest[A,A]",
+  "time" : {
+    "start" : 1625429072820,
+    "stop" : 1625429072980,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9432caa279103651",
+  "name" : "keyPressTest[1,1]",
+  "time" : {
+    "start" : 1625429077578,
+    "stop" : 1625429077736,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29718295c040c2a4",
+  "name" : "checkboxTest",
+  "time" : {
+    "start" : 1625429075439,
+    "stop" : 1625429076158,
+    "duration" : 719
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "a3724cc1ead4f25e",
+  "name" : "navigateToEncodedURL",
+  "time" : {
+    "start" : 1625429066665,
+    "stop" : 1625429067792,
+    "duration" : 1127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

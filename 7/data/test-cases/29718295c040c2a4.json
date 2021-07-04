@@ -1,0 +1,899 @@
+{
+  "uid" : "29718295c040c2a4",
+  "name" : "checkboxTest",
+  "fullName" : "com.template.project.web.tests.featureflow.CheckBoxTest.checkboxTest",
+  "historyId" : "492daa4f08e35e2da7e97be04a71d86f",
+  "time" : {
+    "start" : 1625429075439,
+    "stop" : 1625429076158,
+    "duration" : 719
+  },
+  "description" : "This is a test for handling checkboxes",
+  "descriptionHtml" : "<p>This is a test for handling checkboxes</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "INFO: Tests running on host: fv-az39-656",
+      "time" : {
+        "start" : 1625429052563,
+        "stop" : 1625429052582,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get value from JSON config file",
+      "time" : {
+        "start" : 1625429052598,
+        "stop" : 1625429052646,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get value from JSON config file",
+      "time" : {
+        "start" : 1625429052647,
+        "stop" : 1625429052649,
+        "duration" : 2
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get value from JSON config file",
+      "time" : {
+        "start" : 1625429052651,
+        "stop" : 1625429052651,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get value from JSON config file",
+      "time" : {
+        "start" : 1625429052652,
+        "stop" : 1625429052653,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get value from JSON config file",
+      "time" : {
+        "start" : 1625429052653,
+        "stop" : 1625429052653,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get value from JSON config file",
+      "time" : {
+        "start" : 1625429052654,
+        "stop" : 1625429052654,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get value from JSON config file",
+      "time" : {
+        "start" : 1625429052655,
+        "stop" : 1625429052655,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "INFO: Starting browser : chrome",
+      "time" : {
+        "start" : 1625429073822,
+        "stop" : 1625429073822,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get value from Environment config file",
+      "time" : {
+        "start" : 1625429073840,
+        "stop" : 1625429073841,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "INFO: Tests are run on defaultconfig",
+        "time" : {
+          "start" : 1625429073840,
+          "stop" : 1625429073840,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "INFO: https://the-internet.herokuapp.com is read from environment file",
+        "time" : {
+          "start" : 1625429073841,
+          "stop" : 1625429073841,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "openPage[https://the-internet.herokuapp.com]",
+      "time" : {
+        "start" : 1625429073841,
+        "stop" : 1625429074410,
+        "duration" : 569
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "waitUntilElementVisible[//h1]",
+      "time" : {
+        "start" : 1625429074411,
+        "stop" : 1625429074523,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "getElementText[//h1]",
+      "time" : {
+        "start" : 1625429074523,
+        "stop" : 1625429074571,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tryFindElement[//h1]",
+        "time" : {
+          "start" : 1625429074524,
+          "stop" : 1625429074548,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Page header:Welcome to the-internet is displayed",
+      "time" : {
+        "start" : 1625429074571,
+        "stop" : 1625429074572,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "waitUntilElementVisible[//h2]",
+      "time" : {
+        "start" : 1625429074572,
+        "stop" : 1625429074630,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "getElementText[//h2]",
+      "time" : {
+        "start" : 1625429074631,
+        "stop" : 1625429074675,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tryFindElement[//h2]",
+        "time" : {
+          "start" : 1625429074631,
+          "stop" : 1625429074655,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Sub header:Available Examples is displayed",
+      "time" : {
+        "start" : 1625429074676,
+        "stop" : 1625429074676,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Assert if element is not present: //li/a[contains(text(),'Checkboxes')]",
+      "time" : {
+        "start" : 1625429074676,
+        "stop" : 1625429074761,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "INFO: Element is present: //li/a[contains(text(),'Checkboxes')]",
+        "time" : {
+          "start" : 1625429074761,
+          "stop" : 1625429074761,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "clickElement[//li/a[contains(text(),'Checkboxes')]]",
+      "time" : {
+        "start" : 1625429074762,
+        "stop" : 1625429075084,
+        "duration" : 322
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "waitUntilElementClickable[//li/a[contains(text(),'Checkboxes')]]",
+        "time" : {
+          "start" : 1625429074762,
+          "stop" : 1625429074865,
+          "duration" : 103
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "tryFindElement[//li/a[contains(text(),'Checkboxes')]]",
+        "time" : {
+          "start" : 1625429074865,
+          "stop" : 1625429074893,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "waitUntilElementVisible[.//h3]",
+      "time" : {
+        "start" : 1625429075085,
+        "stop" : 1625429075193,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "getElementText[.//h3]",
+      "time" : {
+        "start" : 1625429075196,
+        "stop" : 1625429075229,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tryFindElement[.//h3]",
+        "time" : {
+          "start" : 1625429075196,
+          "stop" : 1625429075212,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Page header:Checkboxes is displayed",
+      "time" : {
+        "start" : 1625429075230,
+        "stop" : 1625429075230,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "waitUntilElementVisible[//form[@id='checkboxes']/input[1]]",
+      "time" : {
+        "start" : 1625429075231,
+        "stop" : 1625429075337,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Assert if element is not present: //form[@id='checkboxes']/input[2]",
+      "time" : {
+        "start" : 1625429075337,
+        "stop" : 1625429075433,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "INFO: Element is present: //form[@id='checkboxes']/input[2]",
+        "time" : {
+          "start" : 1625429075433,
+          "stop" : 1625429075433,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Checkboxes displayed as expected",
+      "time" : {
+        "start" : 1625429075434,
+        "stop" : 1625429075434,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "tryFindElement[//form[@id='checkboxes']/input[1]]",
+      "time" : {
+        "start" : 1625429075443,
+        "stop" : 1625429075464,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "clickElement[//form[@id='checkboxes']/input[1]]",
+      "time" : {
+        "start" : 1625429075479,
+        "stop" : 1625429075609,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "waitUntilElementClickable[//form[@id='checkboxes']/input[1]]",
+        "time" : {
+          "start" : 1625429075480,
+          "stop" : 1625429075541,
+          "duration" : 61
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "tryFindElement[//form[@id='checkboxes']/input[1]]",
+        "time" : {
+          "start" : 1625429075542,
+          "stop" : 1625429075563,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Checkbox 1 is checked on",
+      "time" : {
+        "start" : 1625429075609,
+        "stop" : 1625429075609,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "tryFindElement[//form[@id='checkboxes']/input[1]]",
+      "time" : {
+        "start" : 1625429075610,
+        "stop" : 1625429075627,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "clickElement[//form[@id='checkboxes']/input[1]]",
+      "time" : {
+        "start" : 1625429075640,
+        "stop" : 1625429075779,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "waitUntilElementClickable[//form[@id='checkboxes']/input[1]]",
+        "time" : {
+          "start" : 1625429075640,
+          "stop" : 1625429075737,
+          "duration" : 97
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "tryFindElement[//form[@id='checkboxes']/input[1]]",
+        "time" : {
+          "start" : 1625429075737,
+          "stop" : 1625429075750,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Checkbox 1 is unchecked",
+      "time" : {
+        "start" : 1625429075780,
+        "stop" : 1625429075780,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "tryFindElement[//form[@id='checkboxes']/input[2]]",
+      "time" : {
+        "start" : 1625429075780,
+        "stop" : 1625429075803,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "clickElement[//form[@id='checkboxes']/input[2]]",
+      "time" : {
+        "start" : 1625429075820,
+        "stop" : 1625429075984,
+        "duration" : 164
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "waitUntilElementClickable[//form[@id='checkboxes']/input[2]]",
+        "time" : {
+          "start" : 1625429075821,
+          "stop" : 1625429075924,
+          "duration" : 103
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "tryFindElement[//form[@id='checkboxes']/input[2]]",
+        "time" : {
+          "start" : 1625429075925,
+          "stop" : 1625429075940,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Checkbox 2 is unchecked",
+      "time" : {
+        "start" : 1625429075984,
+        "stop" : 1625429075985,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "tryFindElement[//form[@id='checkboxes']/input[2]]",
+      "time" : {
+        "start" : 1625429075985,
+        "stop" : 1625429076001,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "clickElement[//form[@id='checkboxes']/input[2]]",
+      "time" : {
+        "start" : 1625429076016,
+        "stop" : 1625429076158,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "waitUntilElementClickable[//form[@id='checkboxes']/input[2]]",
+        "time" : {
+          "start" : 1625429076016,
+          "stop" : 1625429076107,
+          "duration" : 91
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "tryFindElement[//form[@id='checkboxes']/input[2]]",
+        "time" : {
+          "start" : 1625429076108,
+          "stop" : 1625429076128,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Checkbox 2 is checked on",
+      "time" : {
+        "start" : 1625429076158,
+        "stop" : 1625429076158,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 54,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Herokuapp"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-656"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "story",
+    "value" : "Herokuapp checkbox"
+  }, {
+    "name" : "testClass",
+    "value" : "com.template.project.web.tests.featureflow.CheckBoxTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Chrome Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkboxTest"
+  }, {
+    "name" : "testSuite",
+    "value" : "Complete Suite"
+  }, {
+    "name" : "thread",
+    "value" : "3982@fv-az39-656.TestNG-test=Chrome Tests-2(13)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Complete Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Chrome Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.template.project.web.tests.featureflow.CheckBoxTest"
+  }, {
+    "name" : "package",
+    "value" : "com.template.project.web.tests.featureflow.CheckBoxTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29718295c040c2a4.json",
+  "parameterValues" : [ ]
+}

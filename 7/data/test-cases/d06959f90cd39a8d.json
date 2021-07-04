@@ -1,0 +1,494 @@
+{
+  "uid" : "d06959f90cd39a8d",
+  "name" : "uploadTest",
+  "fullName" : "com.template.project.web.tests.featureflow.UploadTest.uploadTest",
+  "historyId" : "685ce12f5bf3092a8e962de6899de593",
+  "time" : {
+    "start" : 1625429070313,
+    "stop" : 1625429070716,
+    "duration" : 403
+  },
+  "description" : "This is a sample Test 4",
+  "descriptionHtml" : "<p>This is a sample Test 4</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "INFO: Tests running on host: fv-az39-656",
+      "time" : {
+        "start" : 1625429052564,
+        "stop" : 1625429052586,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "INFO: Starting browser : chrome",
+      "time" : {
+        "start" : 1625429068681,
+        "stop" : 1625429068681,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get value from Environment config file",
+      "time" : {
+        "start" : 1625429068700,
+        "stop" : 1625429068703,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "INFO: Tests are run on defaultconfig",
+        "time" : {
+          "start" : 1625429068700,
+          "stop" : 1625429068701,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "INFO: https://the-internet.herokuapp.com is read from environment file",
+        "time" : {
+          "start" : 1625429068703,
+          "stop" : 1625429068703,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "openPage[https://the-internet.herokuapp.com]",
+      "time" : {
+        "start" : 1625429068703,
+        "stop" : 1625429069299,
+        "duration" : 596
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "waitUntilElementVisible[//h1]",
+      "time" : {
+        "start" : 1625429069299,
+        "stop" : 1625429069401,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "getElementText[//h1]",
+      "time" : {
+        "start" : 1625429069402,
+        "stop" : 1625429069461,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tryFindElement[//h1]",
+        "time" : {
+          "start" : 1625429069402,
+          "stop" : 1625429069434,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Page header:Welcome to the-internet is displayed",
+      "time" : {
+        "start" : 1625429069462,
+        "stop" : 1625429069462,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "waitUntilElementVisible[//h2]",
+      "time" : {
+        "start" : 1625429069462,
+        "stop" : 1625429069612,
+        "duration" : 150
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "getElementText[//h2]",
+      "time" : {
+        "start" : 1625429069615,
+        "stop" : 1625429069665,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tryFindElement[//h2]",
+        "time" : {
+          "start" : 1625429069615,
+          "stop" : 1625429069640,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Sub header:Available Examples is displayed",
+      "time" : {
+        "start" : 1625429069666,
+        "stop" : 1625429069666,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Assert if element is not present: //li/a[contains(text(),'File Upload')]",
+      "time" : {
+        "start" : 1625429069666,
+        "stop" : 1625429069799,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "INFO: Element is present: //li/a[contains(text(),'File Upload')]",
+        "time" : {
+          "start" : 1625429069798,
+          "stop" : 1625429069799,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "clickElement[//li/a[contains(text(),'File Upload')]]",
+      "time" : {
+        "start" : 1625429069799,
+        "stop" : 1625429070167,
+        "duration" : 368
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "waitUntilElementClickable[//li/a[contains(text(),'File Upload')]]",
+        "time" : {
+          "start" : 1625429069800,
+          "stop" : 1625429069921,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "tryFindElement[//li/a[contains(text(),'File Upload')]]",
+        "time" : {
+          "start" : 1625429069925,
+          "stop" : 1625429069948,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "waitUntilElementVisible[//h3]",
+      "time" : {
+        "start" : 1625429070167,
+        "stop" : 1625429070268,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "getElementText[//h3]",
+      "time" : {
+        "start" : 1625429070268,
+        "stop" : 1625429070311,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tryFindElement[//h3]",
+        "time" : {
+          "start" : 1625429070268,
+          "stop" : 1625429070295,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Page header:File Uploader is displayed",
+      "time" : {
+        "start" : 1625429070312,
+        "stop" : 1625429070312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "uploadImage[//input[@id='file-upload'], sampleJPEG.jpeg]",
+      "time" : {
+        "start" : 1625429070313,
+        "stop" : 1625429070483,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "clickElement[//input[@id='file-submit']]",
+      "time" : {
+        "start" : 1625429070483,
+        "stop" : 1625429070716,
+        "duration" : 233
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "waitUntilElementClickable[//input[@id='file-submit']]",
+        "time" : {
+          "start" : 1625429070483,
+          "stop" : 1625429070550,
+          "duration" : 67
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "tryFindElement[//input[@id='file-submit']]",
+        "time" : {
+          "start" : 1625429070551,
+          "stop" : 1625429070565,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 27,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Herokuapp"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-656"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Herokuapp upload"
+  }, {
+    "name" : "testClass",
+    "value" : "com.template.project.web.tests.featureflow.UploadTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Chrome Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "uploadTest"
+  }, {
+    "name" : "testSuite",
+    "value" : "Complete Suite"
+  }, {
+    "name" : "thread",
+    "value" : "3982@fv-az39-656.TestNG-test=Chrome Tests-4(15)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Complete Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Chrome Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.template.project.web.tests.featureflow.UploadTest"
+  }, {
+    "name" : "package",
+    "value" : "com.template.project.web.tests.featureflow.UploadTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d06959f90cd39a8d.json",
+  "parameterValues" : [ ]
+}

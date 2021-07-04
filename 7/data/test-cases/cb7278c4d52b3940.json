@@ -1,0 +1,521 @@
+{
+  "uid" : "cb7278c4d52b3940",
+  "name" : "keyPressTest[A,A]",
+  "fullName" : "com.template.project.web.tests.featureflow.KeyPressTest.keyPressTest",
+  "historyId" : "b2dc8de1ffb4548413f6595455a794df",
+  "time" : {
+    "start" : 1625429072820,
+    "stop" : 1625429072980,
+    "duration" : 160
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "INFO: Tests running on host: fv-az39-656",
+      "time" : {
+        "start" : 1625429052564,
+        "stop" : 1625429052586,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "INFO: Starting browser : chrome",
+      "time" : {
+        "start" : 1625429071664,
+        "stop" : 1625429071664,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get value from Environment config file",
+      "time" : {
+        "start" : 1625429071698,
+        "stop" : 1625429071699,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "INFO: Tests are run on defaultconfig",
+        "time" : {
+          "start" : 1625429071699,
+          "stop" : 1625429071699,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "INFO: https://the-internet.herokuapp.com is read from environment file",
+        "time" : {
+          "start" : 1625429071699,
+          "stop" : 1625429071699,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "openPage[https://the-internet.herokuapp.com]",
+      "time" : {
+        "start" : 1625429071700,
+        "stop" : 1625429072104,
+        "duration" : 404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "waitUntilElementVisible[//h1]",
+      "time" : {
+        "start" : 1625429072105,
+        "stop" : 1625429072182,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "getElementText[//h1]",
+      "time" : {
+        "start" : 1625429072184,
+        "stop" : 1625429072229,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tryFindElement[//h1]",
+        "time" : {
+          "start" : 1625429072184,
+          "stop" : 1625429072209,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Page header:Welcome to the-internet is displayed",
+      "time" : {
+        "start" : 1625429072230,
+        "stop" : 1625429072230,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "waitUntilElementVisible[//h2]",
+      "time" : {
+        "start" : 1625429072230,
+        "stop" : 1625429072341,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "getElementText[//h2]",
+      "time" : {
+        "start" : 1625429072342,
+        "stop" : 1625429072379,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tryFindElement[//h2]",
+        "time" : {
+          "start" : 1625429072342,
+          "stop" : 1625429072360,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Sub header:Available Examples is displayed",
+      "time" : {
+        "start" : 1625429072379,
+        "stop" : 1625429072379,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Assert if element is not present: //li/a[contains(text(),'Key Presses')]",
+      "time" : {
+        "start" : 1625429072380,
+        "stop" : 1625429072469,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "INFO: Element is present: //li/a[contains(text(),'Key Presses')]",
+        "time" : {
+          "start" : 1625429072469,
+          "stop" : 1625429072469,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "clickElement[//li/a[contains(text(),'Key Presses')]]",
+      "time" : {
+        "start" : 1625429072470,
+        "stop" : 1625429072718,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "waitUntilElementClickable[//li/a[contains(text(),'Key Presses')]]",
+        "time" : {
+          "start" : 1625429072470,
+          "stop" : 1625429072570,
+          "duration" : 100
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "tryFindElement[//li/a[contains(text(),'Key Presses')]]",
+        "time" : {
+          "start" : 1625429072571,
+          "stop" : 1625429072586,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "waitUntilElementVisible[//h3]",
+      "time" : {
+        "start" : 1625429072719,
+        "stop" : 1625429072770,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "getElementText[//h3]",
+      "time" : {
+        "start" : 1625429072771,
+        "stop" : 1625429072819,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tryFindElement[//h3]",
+        "time" : {
+          "start" : 1625429072771,
+          "stop" : 1625429072793,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Page header:Key Presses is displayed",
+      "time" : {
+        "start" : 1625429072819,
+        "stop" : 1625429072819,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "tryFindElement[//input[@id='target']]",
+      "time" : {
+        "start" : 1625429072824,
+        "stop" : 1625429072842,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "getElementText[//form/following-sibling::p[@id='result']]",
+      "time" : {
+        "start" : 1625429072895,
+        "stop" : 1625429072939,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tryFindElement[//form/following-sibling::p[@id='result']]",
+        "time" : {
+          "start" : 1625429072895,
+          "stop" : 1625429072919,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Result is You entered: A",
+      "time" : {
+        "start" : 1625429072940,
+        "stop" : 1625429072940,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "getElementText[//form/following-sibling::p[@id='result']]",
+      "time" : {
+        "start" : 1625429072940,
+        "stop" : 1625429072967,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tryFindElement[//form/following-sibling::p[@id='result']]",
+        "time" : {
+          "start" : 1625429072941,
+          "stop" : 1625429072954,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 29,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Herokuapp"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-656"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Herokuapp Key Press"
+  }, {
+    "name" : "testClass",
+    "value" : "com.template.project.web.tests.featureflow.KeyPressTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Chrome Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "keyPressTest"
+  }, {
+    "name" : "testSuite",
+    "value" : "Complete Suite"
+  }, {
+    "name" : "thread",
+    "value" : "3982@fv-az39-656.TestNG-test=Chrome Tests-3(14)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Complete Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Chrome Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.template.project.web.tests.featureflow.KeyPressTest"
+  }, {
+    "name" : "package",
+    "value" : "com.template.project.web.tests.featureflow.KeyPressTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb7278c4d52b3940.json",
+  "parameterValues" : [ ]
+}
